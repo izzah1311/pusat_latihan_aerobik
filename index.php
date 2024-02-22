@@ -1,21 +1,32 @@
-<title>PAPARAN</title>
+<html>
+    <head>
+    <title>PAPARAN</title>
 <center>
 <h1>PAPARAN</h1>
 <style>
-    .button {
-        margin-top: 10px;
+    button {
+        font-size: 15px;
+    margin-top: 40px;
+    color: black;
+    background-color: #D291BC;
+    width: 105px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    
     }
     body {
         background-color: #FFDFD3; /* warna background sistem */
     }
     table {
-        margin-top: 50px;
+        margin-top: 40px;
         background-color: white;
     }
     h1 {
         margin-top: 150px;
     }
 </style>
+</head>
 <body>
 
 <table border="2px" align="center">
@@ -45,7 +56,8 @@
 }
 ?>
 </table>
-<div class="button">
+
 <a href="index.html"><button>BMI</button></a></center>
-</div>
+
 </body>
+</html>
