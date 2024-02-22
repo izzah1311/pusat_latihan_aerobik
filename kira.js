@@ -1,7 +1,7 @@
 function calculate(){
-    var height = document.getElementById("height").value/100;
-    weight = document.getElementById("weight").value;
-    var bmi = weight / ( height * height);
+    var height = document.getElementById("height").value/100; //pemboleh ubah tinggi
+    weight = document.getElementById("weight").value;//pemboleh ubah berat
+    var bmi = weight / ( height * height);//formula bmi
     var result;
     document.getElementById("papar").innerHTML;
     
